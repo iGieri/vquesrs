@@ -1,3 +1,5 @@
+# Made with ♥ by Federico Gerardi
+
 import requests
 from bs4 import BeautifulSoup
 
