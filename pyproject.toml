@@ -1,5 +1,5 @@
 [project]
-name = "kez"
+name = "vquesrs"
 version = "0.0.1"
 description = "Everything you need for data mining and scraping in Python"
 authors = [
@@ -8,9 +8,9 @@ authors = [
 license = "MIT"
 readme = "README.md"
 python = "^3.7"
-homepage = "https://github.com/PyGera/kez"
-repository = "https://github.com/PyGera/kez"
-documentation = "https://github.com/PyGera/kez"
+homepage = "https://github.com/PyGera/vquesrs"
+repository = "https://github.com/PyGera/vquesrs"
+documentation = "https://github.com/PyGera/vquesrs"
 
 keywords = ["scraping", "data mining", "beautiful soup", "requests"]
 
