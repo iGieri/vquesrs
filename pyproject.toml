@@ -1,0 +1,32 @@
+[project]
+name = "kez"
+version = "0.0.1"
+description = "Everything you need for data mining and scraping in Python"
+authors = [
+    "Federico Gerardi <me@federicogerardi.it>"
+]
+license = "MIT"
+readme = "README.md"
+python = "^3.7"
+homepage = "https://github.com/PyGera/kez"
+repository = "https://github.com/PyGera/kez"
+documentation = "https://github.com/PyGera/kez"
+
+keywords = ["scraping", "data mining", "beautiful soup", "requests"]
+
+classifiers = [
+    "Topic :: Data Mining"
+]
+
+# Requirements
+[dependencies]
+requests = "^2.23"
+bs4 = "^0.0.1"
+
+
+[build-system]
+requires = [
+    "setuptools >= 35.0.2",
+    "setuptools_scm >= 2.0.0, <3"
+]
+build-backend = "setuptools.build_meta"
