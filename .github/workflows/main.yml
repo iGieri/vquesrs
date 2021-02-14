@@ -1,4 +1,4 @@
-- name: kez
+- name: pypi-publish
   uses: pypa/gh-action-pypi-publish@master
   with:
     user: __token__
