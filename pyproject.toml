@@ -1,6 +1,6 @@
 [project]
 name = "vquesrs"
-version = "0.0.2"
+version = "0.0.3"
 description = "Everything you need for data mining and scraping in Python"
 authors = [
     "Federico Gerardi <me@federicogerardi.it>"

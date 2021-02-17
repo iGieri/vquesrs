@@ -30,3 +30,20 @@ class Vquesrs:
         soup = BeautifulSoup(request.text, 'html.parser')
 
         return str(soup.find(id=id))
+
+    def send_discord_hook(self, url, content, username='', avatar_url='', tts=False):
+        """
+        Send a discord webhook :D
+        """
+        data = {"content": content}
+
+        if username:
+            data['username'] = username
+        
+        if avatar_url:
+            data['avatar_url'] = avatar_url
+        
+        if tts:
+            data['tts'] = 'true'
+
+        requests.post(url, data=data)
